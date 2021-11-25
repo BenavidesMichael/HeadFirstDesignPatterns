@@ -1,0 +1,2 @@
+﻿1. Identifiez les aspects de votre application qui varient et séparez-les de ceux qui demeurent constants
+2. Programmer une interface, non une implémentation.

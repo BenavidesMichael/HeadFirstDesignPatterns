@@ -1,0 +1,6 @@
+﻿1. Identifiez les aspects qui varient et separez-le de ceux qui demeurent constant.
+	- si le bout du code est susceptible de changer (isoler de ceux qui ne changent pas);
+
+2. Tous les patterns permettent a une partie d'un système de varier indépendament de toutes les autres.
+
+3. 

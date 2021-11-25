@@ -1,0 +1,11 @@
+﻿	Heritage
+----------------
+difficil a mantenir si on connait pas tout les comportements.
+Les modifications peuvent affecter Involontairement les sousclasse.
+
+	Les Interafces
+----------------------
+« Programmer une interface » signifie en réalité « Programmer un supertype ».
+incoveniant : Pas de reutilisation du code.
+
+

@@ -1,0 +1,2 @@
+﻿						principe de conception
+Identifiez les aspects qui varient et separez-le de ceux qui demeurent constant.
