@@ -1,0 +1,6 @@
+﻿1. Quels sont les inconvénients à utiliser l’héritage ?
+	- Le code est dupliqué entre les sous-classes.
+	- Les changements de comportement au moment de l’exécution sont difficiles.
+	- Il est difficile de connaître tous les comportements.
+
+2. 

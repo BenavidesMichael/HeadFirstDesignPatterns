@@ -1,0 +1,8 @@
+﻿1. Le pattern Stratégie
+------------------------
+Définit une famille d’algorithmes, encapsule chacun d’eux et les rend interchangeables.
+Stratégie permet à l’algorithme de varier indépendamment des clients qui l’utilisent.
+
+Encapsulation dans un group de class distinct, facile a modifier mmen temps d'execution.
+
+2. 

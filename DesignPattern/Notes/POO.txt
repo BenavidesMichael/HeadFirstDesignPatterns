@@ -1,2 +1,13 @@
-﻿						principe de conception
-Identifiez les aspects qui varient et separez-le de ceux qui demeurent constant.
+﻿			POO
+Base :
+------
+	- Abstraction
+	- Encapsulation
+	- Polymorphisme
+	- Heritage
+
+Principes :
+-----------
+	- Encapsulez ce qui varie
+	- Préférez la composition a l'heritage (A Un)
+	- Programmez des interface, non des implementations.

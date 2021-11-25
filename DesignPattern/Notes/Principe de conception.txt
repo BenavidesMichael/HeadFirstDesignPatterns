@@ -1,2 +1,8 @@
 ﻿1. Identifiez les aspects de votre application qui varient et séparez-les de ceux qui demeurent constants
 2. Programmer une interface, non une implémentation.
+3. Préférez la composition à l’héritage
+	- Permet d’encapsuler une famille d’algorithmes dans leur propre ensemble de classes,
+		On peut également modifier le comportement au moment de l’exécution.
+	- Lorsque vous assemblez deux classes : La relation << A-UN >> 
+		ex : chaque canard a un ComportementVol.
+4. 
