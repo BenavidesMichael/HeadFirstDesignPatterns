@@ -5,4 +5,14 @@ Stratégie permet à l’algorithme de varier indépendamment des clients qui l�
 
 Encapsulation dans un group de class distinct, facile a modifier mmen temps d'execution.
 
-2. 
+2. Observateur (Publishers(Subject) + Subscriber(Observers))
+------------------------------------------------------------
+L’éditeur le SUJET et les abonnés les OBSERVATEURS.
+Ne manquez plus jamais rien d’intéressant !
+Il met vos objets au courant quand il se passe quelque chose qui pourrait les concerner.
+Un observer peut aussi etre a la fois observer et subject.
+
+Définit une relation 1-N entre des objets.
+Quand l’état de l’un des objets change(Subject), tous les objets(observers) dépendants en sont informés.
+
+Nous pouvons réutiliser les objets et les sujets indépendamment les uns des autres sans problème car ils sont faiblement couplés.
