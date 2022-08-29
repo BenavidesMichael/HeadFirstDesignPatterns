@@ -16,3 +16,11 @@ Définit une relation 1-N entre des objets.
 Quand l’état de l’un des objets change(Subject), tous les objets(observers) dépendants en sont informés.
 
 Nous pouvons réutiliser les objets et les sujets indépendamment les uns des autres sans problème car ils sont faiblement couplés.
+
+
+3. decorator
+------------
+Le pouvoir de l’extension au moment de l’exécution
+Décorer vos classes au moment de l’exécution en utilisant une forme de composition.
+Pourquoi ? pour pouvoir affecter à vos objets (ou à ceux de quelqu’un d’autre) 
+de nouvelles responsabilités sans jamais modifier le code des classes sous-jacentes.

@@ -2,6 +2,9 @@
 
 internal abstract class Canard
 {
+    // Permet d’ajouter plusieurs nouvelles responsabilités aux objets,
+    // des responsabilités auxquelles le concepteur de la superclasse n’avait même pas pensé.
+    // Et je n’ai pas besoin de toucher à son code !
     protected ICancanComportement _cancanComportement;
     protected IVolComportement _volComportement;
 

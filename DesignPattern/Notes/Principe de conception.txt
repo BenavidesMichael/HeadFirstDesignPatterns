@@ -7,9 +7,14 @@
 		On peut également modifier le comportement au moment de l’exécution.
 	- Lorsque vous assemblez deux classes : La relation << A-UN >> 
 		ex : chaque canard a un ComportementVol.
+	- je peux ajouter de nouvelles fonctionnalités en écrivant du code au lieu de modifier le code existant.
 
 4. Efforcez-vous de coupler faiblement les objets qui interagissent.
 	- libres de les modifier à notre guise
 	- Les modifications des sujets n’affectent pas les observateurs et inversement.
 	- nous permettent de construire des systèmes OO souples, capables de faire face aux changements.
 	- minimisent l’interdépendance entre les objets
+
+5. Les classes doivent être ouvertes à l’extension, mais fermées à la modification.
+
+6. Les classes doivent être ouvertes à l’extension, mais fermées à la modification.

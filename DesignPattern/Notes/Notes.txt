@@ -1,11 +1,27 @@
-﻿	Heritage
-----------------
+﻿	Heritage (comportement)
+-------------------------------
 difficil a mantenir si on connait pas tout les comportements.
 Les modifications peuvent affecter Involontairement les sousclasse.
 
-	Les Interafces
-----------------------
+
+	Les Interafces (Composition)
+------------------------------------
 « Programmer une interface » signifie en réalité « Programmer un supertype ».
 incoveniant : Pas de reutilisation du code.
+Me permet d’ajouter plusieurs nouvelles responsabilités aux objets, 
+y compris des responsabilités auxquelles le concepteur de la superclasse n’avait même pas pensé,
+Et je n’ai pas besoin de toucher à son code.
+je peux ajouter de nouvelles fonctionnalités en écrivant du code au lieu de modifier le code existant.
+principe - (open/closed). 
+
+
+DIFFERENCES : Quand j’hérite d’un comportement en sous-classant,
+ce comportement est défini statiquement au moment de la compilation.
+De plus, toutes les sousclasses doivent hériter du même comportement. 
+
+Mais si je peux étendre le comportement d’un objet par la composition, 
+je peux le faire dynamiquement lors de l’exécution.
+
+
 
 
