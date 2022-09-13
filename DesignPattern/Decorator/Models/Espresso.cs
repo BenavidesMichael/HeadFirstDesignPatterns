@@ -2,8 +2,10 @@
 
 internal class Espresso : Beverage
 {
-    public override void Cost()
+    public Espresso()
     {
-        Console.WriteLine("Espresso cost 40");
-    }
+        _description = "Expresso";
+    }    
+
+    public override double Cost() => 1.99;
 }

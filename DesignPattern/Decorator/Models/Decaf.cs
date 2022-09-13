@@ -2,8 +2,5 @@
 
 internal class Decaf : Beverage
 {
-    public override void Cost()
-    {
-        Console.WriteLine("Decaf cost 30");
-    }
+    public override double Cost() => 1.30;
 }

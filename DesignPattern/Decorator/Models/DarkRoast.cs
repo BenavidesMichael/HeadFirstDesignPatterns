@@ -4,12 +4,10 @@ internal class DarkRoast : Beverage
 {
     public DarkRoast()
     {
-        Description = "Most Excellent Dark Roast";
+        _description = "Most Excellent Dark Roast";
     }
 
 
-    public override void Cost()
-    {
-        Console.WriteLine("DarkRoast cost 20");
-    }
+    public override double Cost() => 2.80;
+
 }
