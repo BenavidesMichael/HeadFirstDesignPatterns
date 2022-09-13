@@ -35,9 +35,13 @@
 #region Decorator
 using DesignPattern.Decorator.Models;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 Beverage beverage = new Espresso();
 beverage = new MochaDecorator(beverage);
-beverage = new MochaDecorator(beverage);
+beverage = new SoyDecorator(beverage);
+beverage = new WhipDecorator(beverage);
 
-System.Console.WriteLine($"{beverage.GetDescription()} : { beverage.Cost() }") ;
+System.Console.WriteLine($"{beverage.GetDescription()} : €{ beverage.Cost() }") ;
 #endregion Decorator
+

@@ -7,5 +7,5 @@ internal class Espresso : Beverage
         _description = "Expresso";
     }    
 
-    public override double Cost() => 1.99;
+    public override double Cost() => 2.00;
 }
